@@ -1,0 +1,55 @@
+.Homepage{
+    background: url("https://img.freepik.com/free-vector/blue-white-low-poly-triangle-shapes-background_1035-19007.jpg?w=1380&t=st=1693845965~exp=1693846565~hmac=e6d0145f5427346ac7b665fe8ccc17e1a6425fbbdc4d260d8c107df6090900ac");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 120px;padding-right: 120px;
+}
+
+/*
+.logo_style{
+    float: left;
+    padding: 30px;
+    
+}*/
+
+.logo_style{
+    margin-left: 50px;
+}
+
+.btn_style{
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.add-button{
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border-radius: 6px;
+    font-weight: bold;
+}
+.add-button:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+.add-button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.btn{
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+tr{
+    text-align: center;
+}
+
+.table{
+    background: transparent;
+    opacity: 0.8;  
+}
